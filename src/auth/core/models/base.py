@@ -1,8 +1,8 @@
 from sqlalchemy import MetaData
 from sqlalchemy.orm import DeclarativeBase, declared_attr
 
-from src.settings import settings
-from src.core.models.utils.tablename_converter import tablename_converter
+from auth.core.models.utils.tablename_converter import tablename_converter
+from auth.settings import settings
 
 
 class Base(DeclarativeBase):

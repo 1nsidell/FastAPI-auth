@@ -1,5 +1,5 @@
 """
-Функция для конвертации названия класса Python в название таблицы Postgres
+Function to convert a Python class name to a Postgres table name.
 """
 
 
